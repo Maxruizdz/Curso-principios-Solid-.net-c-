@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    internal class IDeveloperActivities
+    public interface IDevelopActivities
     {
+        public void Develop();
     }
 }

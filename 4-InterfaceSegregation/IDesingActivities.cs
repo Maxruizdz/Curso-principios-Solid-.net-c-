@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    internal class IDesingActivities
+    public interface IDesingActivities
     {
+        public void Design();
     }
 }
